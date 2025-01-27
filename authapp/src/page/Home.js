@@ -22,7 +22,7 @@ function Home() {
 
     const fetchProducts = async()=>{
       try {
-        const url = "http://localhost8080/products";
+        const url = `https://signuppage-liard.vercel.app/products`;
         const headers = {
           headers :{
             'Authorization': localStorage.getItem('token')
